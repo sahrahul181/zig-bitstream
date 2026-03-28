@@ -1,6 +1,6 @@
 # zig-bitstream
 
-A production-grade, high-performance, and fully generic bit-level I/O library for Zig 0.15.2+.
+A high-performance, and fully generic bit-level I/O library for Zig 0.15.2+.
 
 ## Features
 
@@ -184,4 +184,4 @@ The library uses Zig's `comptime` features to detect the type of the source/sink
 - **LsbFirst**: The first bit written is the least significant bit of the byte (Common in some formats like Gzip/DEFLATE).
 
 ## License
-MIT (or your preferred license)
+MIT
